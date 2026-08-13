@@ -26,7 +26,7 @@ app = FastAPI(
 # CONFIGURATION
 # ============================================================
 
-OUTPUT_DIR = Path("/tmp/renders")
+OUTPUT_DIR = Path("/app/files")
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
 RENDERER_KEY = os.getenv("RENDERER_KEY")
